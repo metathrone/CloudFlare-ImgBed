@@ -7,7 +7,7 @@ permissions:
 
 on:
   schedule:
-    - cron: "0 0 * * *" # every day
+    - cron: "0 0 * * 1" # every Monday
   workflow_dispatch:
     inputs:
       confirm_breaking_update:
